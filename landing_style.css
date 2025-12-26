@@ -1,0 +1,171 @@
+* {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Variabili */
+:root {
+    --white: #ffffff;
+    --background-color1: #1b1540;
+    --background-color2: #140925;
+    --text-accent-color: #ebdc0d;
+}
+
+.bg-1 {
+    background-color: var(--background-color1);
+    color: var(--white);
+}
+
+.bg-2 {
+    background-color: var(--background-color2);
+}
+
+.bg-img-2 {
+    background-image: url(bg-2.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(bg-3.jpg);
+}
+
+.bg-g {
+    background-color: #212529;
+    color: white;
+}
+
+/* Header */
+.header-custom {
+    height: 90vh;
+    background-image: url(bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 10rem;
+}
+
+.header-custom .sx img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.header-custom .dx img {
+    width: 500px;
+}
+
+.header-custom h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.header-custom h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+}
+.card h5 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.header-custom button {
+    color: var(--text-accent-color);
+    font-weight: 300;
+    border-radius: 30px;
+    border: 1px solid var(--text-accent-color);
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+
+.section1 .row {
+    padding: 5rem 20rem;
+}
+
+.section1 .sx img {
+    width: 400px;
+}
+
+.section1 .dx h3 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section1 .dx p {
+    font-size: 1rem;
+}
+
+.section1 .card .row {
+    padding: 0;
+    margin: 20px 0;
+}
+
+.section1 .card .row h5 {
+    font-weight: 400;
+}
+
+.section1 .form-control {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #a724b1;
+}
+
+.section1 form .row {
+    padding: 0;
+}
+
+.section1 .bg-img-2 {
+    margin-bottom: -2rem;
+    padding: 5rem 25rem 0rem 20rem;
+}
+
+.section1 .form-control::placeholder {
+    color: #54626f;
+}
+
+.section1 form button {
+    background-color: var(--text-accent-color);
+    border-radius: 30px;
+    border: none;
+    color: var(--background-color1);
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.bg-2 h3, .bg-img-3 h3 {
+    color: var(--text-accent-color)
+}
+
+.bg-2 p, .bg-img-3 {
+    color: var(--white);
+}   
+
+.bg-img-3 h4 {
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.bg-img-3 img {
+    width: 300px;
+}
+
+footer p {
+    margin: 0;
+}
